@@ -8,7 +8,6 @@ robotIP = "192.168.0.107"
 tts = ALProxy("ALTextToSpeech", robotIP, 9559)
 tts.say("Hello, world!")
 
-posture = ALProxy("ALRobotPosture", robotIP, 9559)
 posture.goToPosture("StandInit", 0.5)
 
 motion = ALProxy("ALMotion", robotIP, 9559)
